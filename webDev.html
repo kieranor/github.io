@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<style>
+    a {
+        color: aqua 
+    }
+</style>
+
+</head>
+
+<body>
+
+    <nav id="nav01"></nav>
+
+    <h1>webDev links</h1>
+
+    <div id="main">
+
+    <p>Great tools to optimize a website, including Critical Render Path and deferred loading below the fold...
+    </p>
+    <a href="https://varvy.com/">varvy.com</a>
+    
+    <p>Digital Inspiration: lots of hacks and black arts.</p>
+    
+    <a href="http://www.labnol.org/">Digital Inspiration</a>
+    
+    <p>CSS Animation Tool</p>
+    
+    <p>Always specify the width and height of an image. If width and height are not specified, the page will flicker while the image loads.</p>
+    
+    <a href="http://waitanimate.eggbox.io/#/http://waitanimate.eggbox.io/#/">waitanimate</a>
+    
+    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="Kings College.png">
+
+
+
+</div>
+
+    <script src="main.js"></script>
+
+</body>
+
+//* my attempt @ image deferring *//
+
+<script>
+function init() {
+var imgDefer = document.getElementsByTagName('img');
+for (var i=0; i<imgDefer.length; i++) {
+if(imgDefer[i].getAttribute('data-src')) {
+imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));
+} } }
+window.onload = init;
+</script>
+
+</html>
+
+
+<script language="javascript" src="http://www.xe.com/pca/link.php"></script><noscript><a href="http://www.xe.com/pca/input.cgi" target="_blank">XE Personal Currency Assistant</a></noscript>

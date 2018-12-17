@@ -1,0 +1,63 @@
+body {background-color: rgba(0, 0, 0, 0.96);
+color: yellow;
+}
+
+#main {
+    width: 60%;
+    padding: 0% 20% 0% 20%;
+    font-size: 24px;    
+}
+
+ul#menu {
+    padding: 0;
+    margin-bottom: 11px;
+}
+
+ul#menu li {
+    display: inline;
+    margin-right: 3px;
+}
+
+ul#menu li a {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #696969;
+    border-radius: 4px 4px 0 0;
+}
+
+ul#menu li a:hover {
+    color: white;
+    background-color: black;
+}
+
+/*#wrapper {width: 70%;
+    padding: 15%;*/
+}
+
+/*????*/
+#main .link {
+    color: aqua
+}
+
+//why does this not work?
+
+    .img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Now for some fun (http://waitanimate.eggbox.io/#/*/
+
+.burst {
+  animation: burst 6s linear infinite;
+    margin: 10%;
+    padding: 10%;
+        
+}
+@keyframes burst {
+  0% { opacity:1 }
+  33.333% { transform:scale(1.8); opacity:0 }
+  33.33333% { transform:scale(1); opacity:1 }
+  100% { transform:scale(1); opacity:1 }
+}
